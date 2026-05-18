@@ -536,3 +536,43 @@ a {
     background: var(--blue-btn);
     margin-right: 10px;
 }
+
+.count-down {
+    margin-top: 265px;
+}
+.count-down::before {
+    content: "";
+    display: block;
+    height: 200px;
+    margin-top: -90px;
+    visibility: hidden;
+}
+.count-down .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 205px;
+}
+
+.count-down .row .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.count-down .row .quantity strong {
+    color: #0d1111;
+    text-align: center;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.count-down .row .column .desc {
+    color: #767e7e;
+    text-align: center;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
