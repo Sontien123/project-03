@@ -600,7 +600,19 @@ a {
     line-height: 1.5;
     margin-top: 27px;
 }
+.feedback-item blockquote span:before {
+    position: absolute;
+    top: 50%;
+    left: -5px;
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+    transform: translateX(-100%);
+}
 .feedback-item blockquote span {
+    position: relative;
     display: block;
     margin-top: 33px;
     margin-left: 13px;
@@ -721,4 +733,60 @@ a {
 .message .btn-started {
     margin-left: 410px;
     line-height: 68px;
+}
+
+/* Footer */
+
+.footer {
+    padding: 131px 135px 50px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .column .title {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer .column .list {
+    margin-top: 26px;
+}
+
+.footer .column li {
+    margin-bottom: 16px;
+}
+
+.footer .column .desc {
+    color: #535353;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer .social-item {
+    margin-bottom: 18px;
+}
+
+.footer .social-item a {
+    display: flex;
+    align-items: center;
+    gap: 0 9px;
+}
+
+.footer .copyright {
+    padding-top: 80px;
+}
+.footer .copyright p {
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
 }
