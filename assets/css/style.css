@@ -576,3 +576,149 @@ a {
     font-weight: 400;
     line-height: normal;
 }
+
+/* Feedback */
+.feedback {
+    margin-top: 264px;
+}
+
+.feedback .feedback-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback .feedback-list {
+    width: 35.8%;
+}
+
+.feedback-item blockquote {
+    color: #5d6564;
+    font-family: Poppins;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 27px;
+}
+.feedback-item blockquote span {
+    display: block;
+    margin-top: 33px;
+    margin-left: 13px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feedback-item blockquote cite {
+    color: #070707;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.feedback .controls {
+    display: flex;
+    gap: 0 30px;
+    margin-top: 52px;
+}
+.feedback .controls .btn-left,
+.feedback .controls .btn-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #2ac9bf;
+    border: 1px solid var(--blue-btn);
+}
+
+.feedback .avatars {
+    position: relative;
+    margin-left: 72px;
+    width: 58%;
+}
+
+.feedback .avatars .big-avatar {
+    position: absolute;
+    top: 107px;
+    right: 171px;
+    width: 235px;
+    height: 235px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback .avatars .small-avatar {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback .avatars .avatar-1 {
+    position: absolute;
+    left: 144px;
+    top: 0;
+}
+
+.feedback .avatars .avatar-2 {
+    position: absolute;
+    top: 19px;
+    right: 0;
+}
+
+.feedback .avatars .avatar-3 {
+    position: absolute;
+    left: 0;
+    bottom: 145px;
+}
+
+.feedback .avatars .avatar-4 {
+    position: absolute;
+    left: 212px;
+    bottom: -85px;
+}
+
+.feedback .avatars .avatar-5 {
+    position: absolute;
+    right: 32px;
+    bottom: 29px;
+}
+/* message */
+
+.message {
+    margin-top: 220px;
+    background: #def6f5;
+}
+
+.message .row {
+    display: flex;
+    align-items: center;
+    padding: 76px 0 88px;
+}
+
+.message-block .title {
+    color: #070707;
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.message-block .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.message .btn-started {
+    margin-left: 410px;
+    line-height: 68px;
+}
